@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<!DOCTYPE dialog SYSTEM "chrome://zoomthumb/locale/zoomthumb.dtd">
+<dialog xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" 
+xmlns:html="http://www.w3.org/1999/xhtml" 
+buttons="accept,cancel" 
+ondialogaccept="ZoomThumb_Settings.Accept(); return true;" 
+ondialogcancel="ZoomThumb_Settings.Cancel(); return true;" onload="ZoomThumb_Settings.Load();" 
+title="&title;" style="width: 300px;">
+
+  <script src="zoomthumb_settings.js" />
+
+	<vbox>
+    <groupbox>
+        <caption label="&settings;" />
+        <hbox align="left" style="padding: 5px;" flex="1">
+            <html:p>&thumbSize;</html:p>
+						<textbox id="thumb_size"
+								 type="number"
+                 min="50"
+                 max="1000"
+                 increment="50"
+                 decimalplaces="0"
+                 width="50" />
+        </hbox>
+    </groupbox>
+    <groupbox>
+        <caption label="&help;"/>
+        <hbox style="padding: 5px; display:inline-block;" flex="1">
+        &helpContent01;<html:br/>
+        &helpContent02;<html:br/>
+        &helpContent03;
+        </hbox>
+    </groupbox>
+    <groupbox>
+        <caption label="About:"/>
+        <hbox style="padding: 5px; display:inline-block;" flex="1">
+        &aboutContent;
+        <html:br/>
+        www.warontomato.com
+        </hbox>
+    </groupbox>
+</vbox>
+</dialog>

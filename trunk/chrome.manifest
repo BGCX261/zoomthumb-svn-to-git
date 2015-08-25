@@ -1,0 +1,5 @@
+content zoomthumb content/
+overlay chrome://uploadr/content/main.xul chrome://zoomthumb/content/overlay.xul
+locale zoomthumb en-US locale/en-US/
+skin zoomthumb classic/1.0 skin/
+style chrome://global/content/customizeToolbar.xul chrome://zoomthumb/skin/overlay.css

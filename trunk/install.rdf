@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>ZoomThumb@WarOnTomato</em:id>
+		<em:name>ZoomThumb</em:name>
+		<em:version>1.0</em:version>
+		<em:description>Change default thumbnail size, and allow photo preview in full-window mode when double-clicking on any thumbnail.</em:description>
+		<em:creator>Francisco Cabrita</em:creator>
+		<em:homepageURL>http://code.google.com/p/zoomthumb/</em:homepageURL>
+		<!--
+		<em:optionsURL>chrome://sampleext/content/settings.xul</em:optionsURL>
+		<em:aboutURL>chrome://sampleext/content/about.xul</em:aboutURL>
+		<em:iconURL>chrome://sampleext/skin/mainicon.png</em:iconURL>
+		<em:updateURL>http://sampleextension.mozdev.org/update.rdf</em:updateURL>
+		-->
+		<em:targetApplication>
+			<Description>
+				<em:id>uploadr@flickr.com</em:id>
+				<em:minVersion>3.1a4</em:minVersion>
+				<em:maxVersion>4.0</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+	</Description>
+</RDF>

@@ -1,0 +1,10 @@
+<!ENTITY title "ZoomThumb Settings">
+<!ENTITY settings "Settings:">
+<!ENTITY thumbSize "Thumb Size:">
+<!ENTITY help "Help:">
+<!ENTITY okButtonName "Ok">
+<!ENTITY cancelButtonName "Cancel">
+<!ENTITY aboutContent '"ZoomThumb" (1.0) is a open source Flickr Uploadr extension created by Francisco Cabrita.'>
+<!ENTITY helpContent01 'Change will take effect after the next restart.'>
+<!ENTITY helpContent02 'Double click on a thumbnail to display a bigger version of the corresponding photo.'>
+<!ENTITY helpContent03 'A single click will restore the thumbnial view.'>

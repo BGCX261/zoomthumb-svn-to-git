@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://zoomthumb/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://zoomthumb/locale/overlay.dtd">
+<!-- Above: Styles and Strings -->
+
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	id="zoomthumb-overlay">
+
+	<!-- Some bit of script that makes the extension sing -->
+	<script src="overlay.js" />
+
+	<!-- Add an item to the Tools menu -->
+	<menupopup id="menu_ToolsPopup">
+		<menuitem id="zoomthumb" label="&zoomthumb;"
+			accesskey="&zoomthumb.accesskey;"
+			oncommand="window.openDialog('chrome://zoomthumb/content/zoomthumb_settings.xul',
+			'', 'chrome', ZoomThumb );"/>
+	</menupopup>
+
+</overlay>
